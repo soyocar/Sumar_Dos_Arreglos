@@ -14,7 +14,7 @@ btnEnv.addEventListener("click", () => {
   }
   function SumaArreglos(v1: number[], v2: number[], resultado: number[]) {
     for (indice = 0; indice < 6; indice++) {
-      resultado[indice] = v1[indice] + v2[indice];
+      resultado[indice] = Number(v1[indice]) + Number(v2[indice]);
     }
   }
   alert("Se ingresarán los datos del Primer Array");
